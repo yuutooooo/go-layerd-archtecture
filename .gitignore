@@ -30,6 +30,7 @@ vendor/
 # Docker関連
 .docker/
 docker-compose.override.yml
+data/mysql/
 
 # ログファイル
 *.log
