@@ -119,3 +119,10 @@
 - **`handler` → `usecase` → `service` → `repository` の順で処理が流れる**
 - **`usecase` がワークフローを管理し、`service` は再利用可能なロジックを提供**
 - **`repository` はデータベースとのやり取りのみを担当**
+
+
+# 開発環境に関しての説明
+dockerコンテナに入るコマンド
+```
+docker compose exec app sh
+```
