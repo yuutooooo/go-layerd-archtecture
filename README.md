@@ -122,6 +122,13 @@
 
 
 # 開発環境に関しての説明
+docker環境の立ち上げ
+```
+docker compose up -d
+もしくは
+docker compose up
+```
+でデータベースサーバー、データベースクライアント、AIRに夜ホットリロード環境が立ち上がる。
 dockerコンテナに入るコマンド
 ```
 docker compose exec app sh

@@ -29,7 +29,7 @@ services:
     platform: linux/amd64
     container_name: mysql
     volumes:
-      - mysql-data:/var/lib/mysql
+      - ./data/mysql:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
       MYSQL_DATABASE: layered_db
