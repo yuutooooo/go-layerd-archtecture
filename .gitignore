@@ -1,0 +1,47 @@
+# Go関連
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# バイナリ出力ディレクトリ
+bin/
+tmp/
+
+# 依存関係のキャッシュ
+vendor/
+
+# IDE/エディタ関連
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 環境変数
+.env
+.env.*
+!.env.example
+
+# Docker関連
+.docker/
+docker-compose.override.yml
+
+# ログファイル
+*.log
+
+# airによる一時ファイル
+tmp/
+.air.toml
+
+# データベース関連
+*.db
+*.sqlite
+*.sqlite3
+
+# キャッシュディレクトリ
+.cache/
